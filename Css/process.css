@@ -1,0 +1,45 @@
+#process{
+    min-height: 10vh;
+    margin-bottom: 8rem;
+}
+.procces__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.process__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.process__item p{
+    opacity: 0.9;
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+    align-items: center;
+    text-align: center;
+}
+.process__item i{
+    border-radius: 0.8rem;
+    margin-bottom: 2rem;
+}
+.process__item h3{
+   
+    margin-bottom: 2rem;
+}
+.box--Wallet{
+    background: #5142FB;
+    border: 0.9rem solid #5142FB;
+}
+.box--setup{
+    background:#46A433;
+    border: 0.9rem solid #46A433;
+}
+.box--addnft{
+    background:#9835FB;
+    border: 0.9rem solid #9835FB;
+}
+.box--listsale{
+    background:#DF4949;
+    border: 0.9rem solid #DF4949;
+}

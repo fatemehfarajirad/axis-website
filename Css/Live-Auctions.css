@@ -1,0 +1,17 @@
+#Live-Auctions{
+    min-height: 30vh;
+}
+.Live-Auctions__wrapper{
+    background-color:var(--too--dark-color);
+}
+.Live-Auctions__title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Live-Auctions__card{
+    background:var(--bg--card--color);
+    border-radius: 1rem;
+    border: 2rem solid var(--bg--card--color);
+}
